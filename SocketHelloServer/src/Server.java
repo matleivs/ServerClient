@@ -33,6 +33,7 @@ public class Server {
             writer.write("\r\n=== Result is : "+result);
             writer.flush();
             connectionSocket.close();
+            mySocket.close();
 		}
 	}
 }
